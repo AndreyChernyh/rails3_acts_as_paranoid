@@ -1,5 +1,6 @@
 require 'active_record'
 require 'validations/uniqueness_without_deleted'
+require 'associations/belongs_to_with_deleted'
 
 module ActsAsParanoid
   
